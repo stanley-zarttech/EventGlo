@@ -1,0 +1,61 @@
+<div style="display: flex; flex-direction: column; width: 500px;height: 600px; margin: 40px 20px;">
+  <div id="header" style="display: flex;flex-direction: row;">
+
+    <div style="display: flex; flex-direction: column;gap: 1;">
+      <span style="font-size: 28px; font-weight: bold; font-family: Poppins;">Create Channel</span>
+      <span>Create a place for connecting with your team members</span>
+    </div>
+    <div class="spacer"></div>
+    <span class="btn cancel-icon-btn">
+      <mat-icon class="">
+        <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10.5 1.5L1.5 10.5M1.5 1.5L10.5 10.5" stroke="black" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" />
+        </svg>
+
+      </mat-icon>
+    </span>
+
+  </div>
+  <div class="input-container">
+    <div>
+      <label for="">Channel's name</label>
+      <input placeholder="eg: General Channel" />
+    </div>
+    <div>
+      <label for="">Description(optional)</label>
+      <input placeholder="eg: a channel for everyone" />
+    </div>
+    <div>
+      <label for="">Invite Team Member(s)</label>
+      <select placeholder="">
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+    </div>
+    <div>
+      <label for="">Channel's name</label>
+      <input placeholder="eg: General Channel" />
+    </div>
+    <div style="margin: 15px;display: flex;flex-direction: row;justify-content: space-between;">
+      <span>Make channel private</span>
+      <span class="spacer"></span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div style="margin: 15px; display: flex;flex-direction: row;justify-content: space-between;">
+      <span>Log all activities</span>
+      <span class="spacer"></span>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div style="display: flex;flex-direction: row; justify-content: space-between; ">
+      <button class="cancel-btn"><span class="cancel-text">Cancel</span></button>
+      <button class="bg-primary create-btn" color="primary"><span class="create-text">Create</span> </button>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Socket } from 'ngx-socket-io';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'chat-app';
+
+  constructor(private socket: Socket) {
+    console.log('socketId: ', socket.ioSocket)
+  }
 }

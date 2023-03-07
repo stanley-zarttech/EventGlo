@@ -1,0 +1,23 @@
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+mat-card {
+  height: 100%;
+}
+
+.reciever {}
+
+.sender {}
+
+.sender-box {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 524px;
+  height: 126px;
+
+  background: #FFFFFF;
+  border: 1px solid #E4E9EE;
+}

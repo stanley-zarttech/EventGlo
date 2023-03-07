@@ -1,0 +1,86 @@
+<div class="editor-box">
+  <div contentEditable id="text" class="editor">
+    The World Before the Flood is an oil-on-canvas painting by English artist William Etty, first exhibited in
+    1828.
+    It
+    depicts a scene from John Milton's Paradise Lost in which Adam sees a vision of the world immediately before
+    the
+    Great
+    Flood. The painting illustrates the stages of courtship as described by Milton: a group of men select wives
+    from a
+    group of dancing women, take their chosen woman from the group, and settle down to married life. Behind them
+    looms
+    an
+    oncoming storm, a symbol of the destruction which the dancers and lovers are about to bring upon themselves.
+    When
+    first exhibited at the 1828 Royal Academy Summer Exhibition, the painting attracted large crowds. Many critics
+
+  </div>
+  <!-- <mat-divider></mat-divider> -->
+  <div class="toolbox">
+    <button mat-icon-button (click)="bold()" id="bold_button" matTooltip="make text bold">
+      <mat-icon class="mat-18">
+        <object data="assets/text-bold.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button (click)="underline()" id="underline_button" matTooltip="underline text">
+      <mat-icon class="mat-18">
+        <object data="assets/text-underline.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button (click)="italize()" id="bold_button" matTooltip="make text italic">
+      <mat-icon class="mat-18">
+        <object data="assets/text-italic.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button (click)="alignLeft()" id="bold_button" matTooltip="Align text to the left">
+      <mat-icon class="mat-18">
+        <object data="assets/textalign-left.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button (click)="justify()" id="bold_button" matTooltip="Justify text to center">
+      <mat-icon class="mat-18">
+        <object data="assets/textalign-justifycenter.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+
+    <button mat-icon-button (click)="alignRight()" id="bold_button" matTooltip="Align text to the right">
+      <mat-icon class="mat-18">
+        <object data="assets/textalign-right.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button id="bold_button" matTooltip="number items">
+      <mat-icon class="mat-18">
+        format_list_numbered </mat-icon>
+    </button>
+    <button mat-icon-button id="bold_button" matTooltip="Insert chart">
+      <mat-icon class="mat-18">
+        insert_chart_outlined </mat-icon>
+    </button>
+
+
+    <!-- <div class="ml-2"></div> -->
+    <span class="ml-4"></span>
+    <button mat-icon-button (click)="bold()" id="bold_button" matTooltip="insert link">
+      <mat-icon class="mat-18">
+        <object data="assets/link-2.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button (click)="bold()" id="bold_button" matTooltip="Justify text to the right">
+      <mat-icon class="mat-18">
+        <object data="assets/image.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button mat-icon-button (click)="bold()" id="bold_button" matTooltip="Record audio">
+      <mat-icon class="mat-18">
+        <object data="assets/microphone-2.svg" type="" class="ellipse"></object>
+      </mat-icon>
+    </button>
+    <button class="send-btn" (click)="sendMessage()" id="bold_button" matTooltip="Send message">
+      <mat-icon class="mat-18">
+        <object data="assets/Vector.svg" type="" class=""></object>
+      </mat-icon>
+      <span class="send-text ml-1">Send</span>
+    </button>
+  </div>
+</div>

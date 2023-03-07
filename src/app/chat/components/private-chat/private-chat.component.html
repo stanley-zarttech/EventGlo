@@ -1,0 +1,27 @@
+<mat-card>
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Username</mat-card-title>
+    <span style="width: 6px;height: 6px;background: #2ED47A; flex: none;"></span>
+    <div class="spacer"></div>
+    <div style="display: flex;flex-direction: row;gap: 40px;">
+      <button mat-icon-button><mat-icon class="mat-18">videocam</mat-icon></button>
+      <button mat-icon-button><mat-icon class="mat-18">call</mat-icon></button>
+      <button mat-icon-button><mat-icon class="mat-18">file_upload</mat-icon></button>
+
+    </div>
+  </mat-card-header>
+  <mat-divider></mat-divider>
+  <span class="mt-1"></span>
+  <mat-card-content style="height: 100%;">
+    <div style="display: flex;flex-direction: column; column-gap: 20px;height: 70%; overflow-y: scroll;" class="mb-2">
+      <app-message></app-message>
+      <app-received-message></app-received-message>
+    </div>
+    <!-- <mat-toolbar> -->
+    <app-editor (emitSend)="sendMessage($event)"></app-editor>
+    <!-- </mat-toolbar> -->
+  </mat-card-content>
+
+
+</mat-card>
